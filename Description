@@ -1,0 +1,20 @@
+Screens and components 
+
+./ ->Current directory
+../ ->to move a directory above
+
+\
+/React js 
+
+
+to break into pieces
+
+//rafce ,rfce
+ short cut for boiler plate of react js
+
+Code optimization tips:
+
+1. Props ->object 
+
+we can destructed the props  
+props.name X  -> name
