@@ -1,20 +1,28 @@
-Screens and components 
+// Screens and components 
 
-./ ->Current directory
-../ ->to move a directory above
+// ./ ->Current directory
+// ../ ->to move a directory above
 
-\
-/React js 
+// \
+// /React js 
 
 
-to break into pieces
+// to break into pieces
 
-//rafce ,rfce
- short cut for boiler plate of react js
+// //rafce ,rfce
+//  short cut for boiler plate of react js
 
-Code optimization tips:
+// Code optimization tips:
 
-1. Props ->object 
+// 1. Props ->object 
 
-we can destructed the props  
-props.name X  -> name
+// we can destructed the props  
+// props.name X  -> name
+
+//  e.preventDefault(); is se page reload nhi  hoga 
+//  e default function ha 
+
+
+
+
+// ///// Conditional rendering 
