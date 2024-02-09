@@ -26,3 +26,18 @@
 
 
 // ///// Conditional rendering 
+
+//HOOKS
+
+
+// Three types of hooks
+
+// 1 useState()
+// is me ham state ko store kr sakte  (like edit or manipualte )
+// 2. useEffect()
+// yaha pr woh chez jo ham sab se phele render karwana chahte ha when page is realaod 
+// 3. useMemo()
+//  advanced chaeze ki ha like 10 ki power hamne 100 krdi ha 
+// tu yeh basically is  operations ki liye use hoti 
+
+// value ko again again render nhi krta using cache

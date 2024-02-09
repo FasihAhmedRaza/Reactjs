@@ -1,11 +1,13 @@
 import './App.css';
+import Register from './screens/Register';
 
-import UserList from './screens/UserList';
+// import UserList from './screens/UserList';
 
 function App() {
   return (
     <div>
-      <UserList />
+      <Register />
+      {/* <UserList /> */}
     </div>
   );
 

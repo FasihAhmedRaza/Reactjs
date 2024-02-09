@@ -1,4 +1,6 @@
 import React from 'react'
+import "./Register.css";
+
 
 function Register() {
 
@@ -17,7 +19,9 @@ function Register() {
       {/* Conditional statement */}
       {age > 18  && emailid === "fasih@gmail.com" ? (
         <div>
-           <input type='email' placeholder='Enter email'></input>
+           <input className='form-input' type='email' placeholder='Enter email'></input>
+           <input className='form-input' type='password' placeholder='Enter Password'></input>
+         
          <button onClick={handleRegister}>Submit</button>
         </div>
       ) : (
