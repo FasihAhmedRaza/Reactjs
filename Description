@@ -33,7 +33,8 @@
 // Three types of hooks
 
 // 1 useState()
-// is me ham state ko store kr sakte  (like edit or manipualte )
+// is me ham state ko store kr sakte 
+// is se hm states ko managge kr sakte ha (like edit or manipualte )
 // 2. useEffect()
 // yaha pr woh chez jo ham sab se phele render karwana chahte ha when page is realaod 
 // 3. useMemo()
@@ -41,3 +42,24 @@
 // tu yeh basically is  operations ki liye use hoti 
 
 // value ko again again render nhi krta using cache
+
+// Error1
+// toomany render error means |
+// we need to  use effect hook ()
+
+//----useEffect()
+
+// The useEffect hook is another essential hook in React. 
+// It is used for performing side effects in functional 
+// components. Side effects can include things like data
+//  fetching, subscriptions, manually changing the DOM, and more.
+
+// sprading operator  = > ...t
+
+//  Using spreading operator
+// const array1 = [1, 2, 3];
+// const array2 = [4, 5, 6];
+// const combinedArray = [...array1, ...array2];
+
+// /Without spreading operator
+// const combinedArrayWithoutSpread = array1.concat(array2);
