@@ -41,6 +41,8 @@
 //  advanced chaeze ki ha like 10 ki power hamne 100 krdi ha 
 // tu yeh basically is  operations ki liye use hoti 
 
+ //Memoization  - it is storing this inside a cache4 
+
 // value ko again again render nhi krta using cache
 
 // Error1
@@ -63,3 +65,34 @@
 
 // /Without spreading operator
 // const combinedArrayWithoutSpread = array1.concat(array2);
+
+// React Router ---
+//npm install react-router-dom localforage match-sorter sort-by
+
+// React Router is a library for client-side routing in React applications. 
+// It helps create single-page web apps by defining routes and
+//  their corresponding components. When a user navigates to a 
+//  specific URL, React Router renders the appropriate component,
+//   keeping the UI in sync with the URL
+
+
+// -----------------   REDUX 
+
+// for example in redux we have 
+// we have one store we call as redux store 
+ // in which we have many states 
+ // and we can customize and update the values of states using actions 
+ // and we can excess values using reducers 
+
+//   flow :
+ //  Redux Store -> states ,states ,states  - > Actions  -> Reducers 
+
+ //Action reducer ko triggered kre ga 
+// Reducer store me se changes kare gaa 
+
+// for display the reducer after the done the changes we can display using useSelector in store
+
+//  dispatch means to send quickly for paticular purposes
+// Payload means Data 
+
+

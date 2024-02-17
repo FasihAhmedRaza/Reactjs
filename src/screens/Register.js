@@ -1,20 +1,27 @@
-import React, { useState } from 'react'
+import React, { useMemo, useState } from 'react'
+import { Link ,Navigate } from 'react-router-dom';
 
 
 const ExpensiveCalculation = (num) => {
   console.log("Calculating .. ");
   for(let i = 0 ; i < 10000000 ; i ++){
-    num += i;
+    num += 1;
   }
-  return num;
+  return num; //2 -4 second
+
+
+
+   //Api Call, Calculations
 };
 
 
 function Register() {
   const[count ,setCount] = useState(0);
   const[todos , setTodos] =useState([]);
-
-  // todos - Array  - map = access every single element and then us it to display a compoent or a screen
+ const calculation = useMemo( () => ExpensiveCalculation(count),[count]);
+ 
+ //Memoization  - it is storing this inside a cache4 
+ // todos - Array  - map = access every single element and then us it to display a compoent or a screen
   const increment =() => {
     setCount((c) => c + 1) ;
   } ;
@@ -27,7 +34,7 @@ function Register() {
     <div>
        <div>
         <h2> My Todos</h2>
-        {toHaveDescription.map((todo , index) => {
+        {todos.map((todo , index) => {
           return <p key={index}> {todo}</p>;
         })}
         <button onClick={addTodo}> Add Todo</button>
@@ -39,7 +46,9 @@ function Register() {
         <h2> Expensive Calculation</h2>
         {calculation}
         </div>
-
+      {/* <button> Take me to User Page</button> */}
+      <Link to="/UserList">Take me to user kist page</Link> 
+      <Navigate to="/Contact" replace={true} />
     </div>
   );
 }
