@@ -16,6 +16,10 @@
 
 // 1. Props ->object 
 
+// it refers to the inputs that are passed into a React component.
+//Props are used to pass data from a parent component to a child component.
+//Props are passed to components similar to how attributes are passed to HTML elements. 
+
 // we can destructed the props  
 // props.name X  -> name
 
