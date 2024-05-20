@@ -1,0 +1,145 @@
+react is a library of javascript
+component based model
+reusibility (declarative approach)
+
+for installing first time react in pc--------->
+
+* npm install --global create-react-app
+
+for checking version of react app-->
+* create-react-app --version
+
+d: for change localdisk in cmd
+
+
+for creating react app --> 
+* create-react-app projectname
+
+
+***package.json 
+me hamre project ke information hoti ha sariii
+react ki configuration hote ha
+isme jo library hum use kar rhe hote  wo check kar sakte ha
+package.json used to store the metadata associated with the project as well as to store
+list of dependency packages 
+isme wo packages jo nodemodules me safe haa
+
+package-lock.json me logs bante ha not a important file you can delete it (waste file)
+
+
+for host page in github 
+use this link --> https://create-react-app.dev/docs/deployment/
+and watch this video-->https://www.youtube.com/watch?v=mdO18zv3oGQ
+
+SPA=>single Page Application
+MPA=>Multiple Page Application
+
+another setup for  without installing create reactapp is
+npx create-react-app project name
+
+React ko server par hi chala sakte ha like:localhost....
+
+
+public 
+index.html ke andar
+ id=>root ke andar hamari poori application chal rhi hoti ha
+
+----------------------------------------
+ //// import React from 'react' ;  //import  is a ES6 feature
+
+it means ->hm React class import kar rhe ha react folder se
+
+// import './index.css';  // kue yeh file isliyee hamne from use nhi  kea haa
+css ki file bhi hmm import karne ki liye react me method use karte ha
+
+
+// export default App;
+it means : hm sirf aik class export kar rhe haa
+agar hamne aik se zeada component ka store karwana ho tuu hmm 
+default nhi laghee gee
+Then we use this syntax
+export{
+  component 1,
+  component2, comp3 .....
+}
+on the other hand in APP.js we import using this syntax{ .. , ..}
+---------------------------------------------
+//ReactDOM.render(
+...
+...
+//);
+aik function a hme de rhe ha jo render ka ha render ka 
+jisme hamne btana ha ke hamne konsa component hamne render karwana ha
+or dosri value means : ke hamne isko kha render karwana ha (matlab hamne html me kha rende karwana ha)
+
+*******JSX is a combination of javascript and html 
+
+
+component ka name hamesha capital hona chaiyee
+for example
+like:  incorrect
+Like:correct
+
+// for  write inline css then we use this syntax
+        // margin-left : incorrect in react 
+        //we use 2nd letter capital  i.e : marginLeft 
+syntax inline css ---  
+ *   style={ { backgroundColor:'blue'} } // style called name as props
+
+
+for showing shortcuts or suggestion 
+then rename file as app.jsx
+------------------------------BOOTSTRAP------
+https://react-bootstrap.github.io/getting-started/introduction
+
+for installing bootsrap
+
+npm install react-bootstrap bootstrap
+
+for connecting css
+import 'bootstrap/dist/css/bootstrap.min.css';// in index.js
+
+
+For using MATERIAL UI
+https://mui.com/getting-started/installation/
+
+for installing
+npm install @mui/material @emotion/react @emotion/styled
+
+agar hamne aik se zeada component ka store karwana ho tuu hmm 
+default nhi laghee gee
+Then we use this syntax
+export{
+  component 1,
+  component2, comp3 .....
+}
+
+html to jsx convert compiler use for convert html to jsx
+https://magic.reactjs.net/htmltojsx.htm
+----------------------------------------------
+//state
+
+ jitna bhi hmara functionality ka kam hoga wo dab state me hoga
+syntax..
+constructor(){ // constructor hmm 2 classes ko merge karne ki liye lagatee ha
+   super()// yeh tab call karte ha jab hmm parent se koi value lee rhe hoo
+
+}
+
+----------function
+for create function function syntax 
+
+functionname { //we dont use funtion keyword in react
+
+}
+
+//simple function me 
+wo  state function ka leta ha 
+
+//or arrow function me
+wo state component ka leta ha
+
+simple function bind karne ka method 
+
+ syntax//this.funcname = this.funcname.bind(this)
+recommendation is use arrow function
